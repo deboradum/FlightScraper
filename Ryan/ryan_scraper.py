@@ -162,8 +162,11 @@ def data_to_csv(data, max_price):
 
 
 def run(site_url, dep_city, travel_month, travel_duration, dep_day, max_price):
+    # Opens website.
     open_site(site_url)
+    # Accepts cookies if asked for.
     accept_cookies()
+    # Chooses city of departure.
     dep_city_chooser(dep_city)
     time.sleep(0.2)
     arr_city_chooser(travel_month, travel_duration, dep_day)
@@ -189,10 +192,6 @@ def main():
     all_possibilities()
 
     driver.quit()
-
-
-
-
 
 
 if __name__ == '__main__':
