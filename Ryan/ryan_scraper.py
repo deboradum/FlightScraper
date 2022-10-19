@@ -15,11 +15,6 @@ months_list = ["aug", "sep", "okt", "nov", "dec", "jan"]
 week_days_list = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"]
 length_list = [4, 5, 6, 7, 8, 9, 10]
 
-# TODO:
-#   - Mailen
-#   - link naar ticket
-#   - Specifieke datum
-
 # Initialises driver.
 try:
     # Detection avoidance
